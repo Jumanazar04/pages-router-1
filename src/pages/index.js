@@ -1,9 +1,12 @@
-import Layout from "@/components/Layout";
+import Image from "next/image";
+import { Inter } from "next/font/google";
 
-export default function Home({Component, pageProps}) {
+const inter = Inter({ subsets: ["latin"] });
+
+export default function Home() {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <main>
+      
+    </main>
   );
 }
